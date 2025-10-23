@@ -30,7 +30,8 @@ const Services = () => {
       title: 'Employment Solutions',
       description: 'Next-generation talent acquisition platform using machine learning to create perfect matches between employers and candidates.',
       features: ['AI Matching', 'Skill Assessment', 'Career Growth'],
-      color: 'from-cyan-500 to-teal-500'
+      color: 'from-cyan-500 to-teal-500',
+      comingSoon: true
     },
     {
       icon: FaCogs,
@@ -123,11 +124,12 @@ const Services = () => {
                   </motion.a>
                 ) : (
                   <motion.button 
-                    className="service-btn"
+                    className={`service-btn ${service.comingSoon ? 'coming-soon' : ''}`}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
+                    disabled={service.comingSoon}
                   >
-                    Learn More
+                    {service.comingSoon ? 'Coming Soon' : 'Learn More'}
                     <FaArrowRight />
                   </motion.button>
                 )}

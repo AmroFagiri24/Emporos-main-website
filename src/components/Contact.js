@@ -121,7 +121,7 @@ const Contact = () => {
                 <p>Fill out the form below and we'll get back to you within 24 hours</p>
               </div>
 
-              <form className="contact-form">
+              <form className="contact-form" action="mailto:emporos2025@gmail.com" method="post" encType="text/plain">
                 <div className="form-row">
                   <div className="form-group">
                     <label htmlFor="name">Full Name</label>
@@ -178,15 +178,13 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <motion.button 
+                <motion.input 
                   type="submit" 
+                  value="Send Message"
                   className="submit-btn"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                >
-                  Send Message
-                  <FaPaperPlane />
-                </motion.button>
+                />
               </form>
             </motion.div>
           </div>

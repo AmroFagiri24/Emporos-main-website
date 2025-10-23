@@ -151,6 +151,19 @@
   transform: translateX(3px);
 }
 
+.service-btn.coming-soon {
+  background: rgba(156, 163, 175, 0.5);
+  border-color: #9ca3af;
+  color: #6b7280;
+  cursor: not-allowed;
+}
+
+.service-btn.coming-soon:hover {
+  background: rgba(156, 163, 175, 0.5);
+  color: #6b7280;
+  transform: none;
+}
+
 /* Gradient utilities */
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
