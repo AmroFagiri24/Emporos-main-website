@@ -16,7 +16,8 @@ const Services = () => {
       title: 'Car Rentals',
       description: 'Revolutionary mobility solutions connecting customers with premium car rental services through our intelligent matching platform.',
       features: ['Smart Booking System', 'Real-time Availability', '24/7 Support'],
-      color: 'from-blue-500 to-cyan-500'
+      color: 'from-blue-500 to-cyan-500',
+      link: 'https://emporos-cr.vercel.app/'
     },
     {
       icon: FaHome,
