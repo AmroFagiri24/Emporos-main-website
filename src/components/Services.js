@@ -24,7 +24,8 @@ const Services = () => {
       title: 'Real Estate',
       description: 'Advanced property technology bridging investors, owners, and clients with AI-powered market insights and seamless transactions.',
       features: ['Market Analytics', 'Virtual Tours', 'Investment Tools'],
-      color: 'from-indigo-500 to-blue-500'
+      color: 'from-indigo-500 to-blue-500',
+      link: 'https://emporos-real-estate.vercel.app/'
     },
     {
       icon: FaUsers,
