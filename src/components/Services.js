@@ -41,7 +41,7 @@ const Services = () => {
       description: 'Comprehensive technology solutions and consulting services for businesses and individuals in Toronto, Canada.',
       features: ['Web Development', 'System Integration', 'Tech Consulting'],
       color: 'from-purple-500 to-indigo-500',
-      link: 'https://emporosnexus.vercel.app/'
+      link: 'https://emporosnexus.com/'
     }
   ];
 
